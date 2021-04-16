@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Sailec-Bold, Arial, Helvetica, sans-serif; 
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+.text-sixteen {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #222222;
+}
+
+.text-20{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #4C4D5F;
+    }
+    .text-25{
+        font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 36px;
+    color: rgba(76, 77, 95, 0.67);
+    }
+    .text-23{
+        font-family: Roboto;
+        font-style: normal;
+   
+        font-size: 23px;
+        line-height: 28px;
+        color: #4C4D5F;
+    }
+    .text-43{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 43px;
+        line-height: 44px;
+            color: #4C4D5F;
+
+    }
+    .hr{
+        background: #E5E9EF;
+        width: 342px;
+        border: 1px solid #E5E9EF;
+    }
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* header */
+.header{
+    position: relative;
+    padding: 36px 0;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav{
+    display: flex;
+ 
+}
+.header-navbar{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.header-btn{
+    padding: 12px 24px;
+}
+.header-btn{
+    margin-left: 16px;
+    border: 1px solid #00B289;
+    border-radius: 4px;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: #00B289;
+}
+.header-btn:hover{
+    background-color: #00B289;
+    color: #FFFFFF;
+    transition: 0.35s;
+
+}
+.header-nav-link a:hover {
+        color: #00B289;
+        fill:#00B289;
+        transition: 0.35s;
+
+}
+
+
+/* tetragon turt burchak */
+.tetragon{
+ padding: 400px;
+    background: #F2FAFF;
+    border-radius: 94px;
+    transform: rotate(153deg);
+    display: flex;
+    position: absolute;
+    bottom: -250px;
+    right: 50px;
+
+    z-index: -1;
+}
+
+/* section-freelance */
+.section-freelance{
+    display: flex;
+    align-items: center ;
+    margin-bottom: 75px;
+}
+.tetli{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 62px;
+    color: #4C4D5F;
+}
+
+
+/* btn */
+.form{
+    display: inline-flex;
+    margin-top: 36px;
+}
+
+.form-input{
+    padding: 24px 28px;
+    background: #FFFFFF;
+    border: 2px solid #01B289;
+    border-radius: 4px 0px 0px 4px;
+    outline: none;
+    cursor: pointer;
+    width: 337px;
+
+}
+.form-header{
+    padding: 24px 28px;
+    background: #00B289;
+    border-radius: 0px 4px 4px 0px;
+    border-radius: 0px 4px 4px 0px;
+    outline: none;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #01B289;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-right: 75px;
+}
+.main-text h1 p{
+    max-width: 470px;
+}
+
+/* partners */
+.partners-text {
+text-align: center;
+}
+.partners-text p{
+   
+    max-width: 680px;
+    margin: 0 auto;
+}
+.partners-text h2{
+   margin-bottom: 35px;
+}
+.partners-text-img{
+    display: flex;
+
+}
+.partners-wrapper{
+margin: 80px 0 40px 126px;
+text-align: center;
+}
+.partners-img{
+    margin-top: 46px;
+}
+
+
+
+/* Win More Work  */
+.winmore-work-ctn{
+    display: flex;
+}
+
+.winmore-work{
+    margin-bottom: 216px;
+}
+
+/* Win More Work kuproq ishlang  hover ishlash kerak */
+.winmore-work-link{
+    margin-left: 30px;
+}
+.winmore-work-link-text{
+    display: flex;
+    align-items: center;
+    padding: 26px;
+    width: 343px;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    color:#4C525A ;
+}
+.winmore-work-link-text svg{
+    margin-right: 26px;
+}
+
+.winmore-work-link-text:hover{
+    background: #FFFFFF;
+    box-shadow: 1px 1px 60px rgba(2, 4, 69, 0.06);
+    border-radius: 4px;
+    border:none;
+    outline: none;
+    transition: 0.35s;
+    color:#00B289;
+}
+
+.winmore-work-link-text:hover   .work-svg path{
+    fill: #00B289;
+}
+
+.winmore-work-link-text:hover  .work-svg path{
+    fill: #00B289;
+}
+
+.winmore-work-link-span{
+ margin-right: 170px;
+}
+
+.winmore-svg{
+        margin-left: 151px;
+}
+/* -------------------------------------     */
+
+.winmore-work-text{
+    max-width: 360px;
+    margin: 30px 104px;
+    position: relative;
+
+}
+.winmore-work-img{
+    position: absolute;
+    left: 90px;
+    bottom: 0;
+}
+
+.winmore-work-text p{
+margin: 20px 0 87px 0 ;
+    line-height: 32px;
+}
+
+
+
+/*  freelancing-agents  agrtla*/
+.freelancing-agents{
+    margin-left: 77px;
+}
+
+.freelancing-agents-text{
+    display: flex;
+      margin-top: 85px;   
+}
+.freelancing-agents-svg{
+   
+    max-width: 382px;
+    margin: 0 auto;
+}
+.freelancing-agents-svg svg{
+    margin-bottom: 30px;
+}
+.agents-text{
+        margin: 15px 0 205px 0;
+}
+
+/* reference */
+.reference{
+    display: flex;
+   
+}
+.reference-span{
+    padding: 20px;
+    width: 523px;
+    background: #ffffff;
+    box-shadow: 0px 0px 60px rgba(2, 4, 69, 0.06);
+    border-radius: 4px;
+}
+
+.reference-text{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.reference-text{
+    position: relative;
+}
+.reference-img{
+    position: absolute;
+    bottom: 230px;
+}
+.reference-svg{
+    position: absolute;
+    right: 302px;
+    bottom: 399px;
+}
+
+/* btn */
+.btn{
+    
+    text-align: center;
+    margin-bottom: 154px;
+
+}
+.button-btn{
+    background: rgba(255, 2, 2, 0.13);
+border-radius: 5px;
+outline: none;
+cursor: pointer;
+border: 5px solid  rgba(76, 77, 95, 0.13);  ;
+}
+.button-btn:hover{
+    border: 5px solid #01B289;
+    background: #01B289;
+    border-radius: 7px;
+
+}
+/*business  */
+.business{
+    padding: 105px 70px;
+    background: #F2FAFF;
+    border-radius: 8px;
+    max-width: 1066px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 239px;
+}
+
+/* footer */
+
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav-tetli{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+    color: #4C4D5F;
+
+}
+.footer-nav-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.11px;
+    color: #4C4D5F;
+}
+
+
+
+/* ==============================
+   ==============================
+         Responsive part 
+   ==============================
+   ============================== */
+
+
+   @media only screen and (max-width: 1100px){
+    
+    .section-freelance-img{
+      width: 600px;
+    }
+
+    .partners-wrapper{
+        margin: 80px 0 40px 91px;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .header-nav{
+        display: none;
+    }
+
+    .section-freelance-img{
+      width: 500px;
+      flex-direction: reverse;
+    }
+
+    .partners-wrapper{
+        flex-direction: column-reverse  ;
+        margin: 80px 0 40px 75px;
+    }
+    .partners{
+   
+        max-width: 800px;
+        margin: 0 auto;
+        margin-left: 156px;
+    }
+    /* /* .partners-img{
+        flex-wrap: wrap;
+width: 300px;
+    } */
+} 
